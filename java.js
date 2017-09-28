@@ -10,3 +10,4 @@ function sortList() {
     var array = txt.split(',');
     array.sort();
     document.getElementById("jess").innerHTML = "Your ordered list: " + array;
+}
